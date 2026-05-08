@@ -75,7 +75,8 @@ export default function Hero() {
               href="#contact"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white text-mac-forest border border-mac-emerald/20 shadow-sm px-8 py-4 rounded-2xl font-bold transition-all hover:border-mac-emerald hover:text-mac-emerald hover:-translate-y-1"
             >
-              <MessageCircle size={20} className="text-mac-emerald" /> WhatsApp Kami
+              <MessageCircle size={20} className="text-mac-emerald" 
+              href="https://wa.me/+6285819410509"/> WhatsApp Kami
             </a>
           </motion.div>
         </div>

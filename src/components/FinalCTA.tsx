@@ -30,7 +30,7 @@ export default function FinalCTA() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a 
-            href="https://wa.me/+62858194105"
+            href="https://wa.me/+6285819410509"
             className="w-full sm:w-auto flex items-center justify-center gap-2 bg-mac-orange text-white px-8 py-4 rounded-full font-bold text-lg transition-transform hover:scale-105 active:scale-95 shadow-xl shadow-mac-orange/20"
           >
             <MessageCircle size={24} /> Hubungi WhatsApp
