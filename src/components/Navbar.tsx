@@ -31,6 +31,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
           <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
+          <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
         </a>
 
         {/* Desktop Nav */}
