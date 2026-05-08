@@ -52,7 +52,6 @@ export default function Footer() {
           <div className="flex gap-3 text-mac-forest/60">
             <MessageCircle size={20} className="shrink-0 text-mac-emerald" />
             <p className="text-sm leading-relaxed font-medium">
-		href="https://wa.me/+6285819410509">
               +62-858-1941-0509<br/>
               (WA only)
             </p>
