@@ -1,4 +1,4 @@
-import { MapPin, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -9,7 +9,6 @@ export default function Footer() {
           <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
             <div>
               <a href="#home" className="flex items-center gap-2">
-              <a href="#home" className="flex items-center gap-2">
                 <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
                 <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
               </a>
@@ -18,17 +17,6 @@ export default function Footer() {
           <p className="text-mac-forest/60 max-w-sm mb-6 leading-relaxed">
             Produk home care berkualitas untuk kebutuhan sehari-hari yang dikembangkan oleh komunitas anak serumpun.
           </p>
-          <div className="flex items-center gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
-              <Instagram size={20} />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
-              <Facebook size={20} />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
-              <MessageCircle size={20} />
-            </a>
-          </div>
         </div>
 
         {/* Links */}
