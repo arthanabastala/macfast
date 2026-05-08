@@ -25,7 +25,7 @@ export default function About() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.2 }}
+                transition={{ duration: 0.5, delay: 0.2 }}F
                 src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?fm=jpg&q=80&w=500&h=600&fit=crop" 
                 alt="Community event" 
                 className="w-full h-64 object-cover rounded-3xl -mt-4 shadow-lg"
