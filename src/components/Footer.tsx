@@ -60,7 +60,6 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-mac-forest/10 text-center md:flex md:justify-between md:text-left text-sm text-mac-forest/50 font-bold">
         <p>&copy; {new Date().getFullYear()} Madrasah Action Community. All rights reserved.</p>
-        <p className="mt-2 md:mt-0">Dibuat dengan ❤️ oleh Komunitas.</p>
       </div>
     </footer>
   );
