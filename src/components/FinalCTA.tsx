@@ -35,12 +35,6 @@ export default function FinalCTA() {
           >
             <MessageCircle size={24} /> Hubungi WhatsApp
           </a>
-          <a 
-            href="#"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white/10 text-white border-2 border-white/20 backdrop-blur-md px-8 py-4 rounded-full font-bold text-lg transition-colors hover:bg-white/20 hover:border-white/40"
-          >
-            <Instagram size={24} /> Kunjungi Instagram
-          </a>
         </motion.div>
       </div>
     </section>
