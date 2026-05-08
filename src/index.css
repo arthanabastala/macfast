@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mac-emerald: #0F9D7A;
+  --color-mac-cream: #F6F3EB;
+  --color-mac-forest: #14532D;
+  --color-mac-orange: #FF8A3D;
+  
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sora: "Sora", sans-serif;
+
+  --shadow-card: 0 10px 25px -5px rgba(15, 157, 122, 0.1);
+}
+
+body {
+  background-color: var(--color-mac-cream);
+  color: var(--color-mac-forest);
+  overflow-x: hidden;
+}

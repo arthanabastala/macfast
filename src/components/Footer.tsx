@@ -1,0 +1,70 @@
+import { MapPin, Instagram, Facebook, MessageCircle } from 'lucide-react';
+
+export default function Footer() {
+  return (
+    <footer id="contact" className="bg-mac-cream text-mac-forest pt-16 pb-8 px-4 md:px-8 border-t border-mac-forest/5">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        {/* Brand */}
+        <div className="md:col-span-2">
+          <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
+            <div className="w-12 h-12 rounded-xl bg-mac-emerald flex items-center justify-center text-white font-bold text-2xl shadow-lg">
+              M
+            </div>
+            <div>
+              <span className="font-bold text-2xl tracking-tight block">MAC</span>
+              <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">Madrasah Action Community</span>
+            </div>
+          </a>
+          <p className="text-mac-forest/60 max-w-sm mb-6 leading-relaxed">
+            Produk home care berkualitas untuk kebutuhan sehari-hari yang dikembangkan oleh komunitas anak serumpun.
+          </p>
+          <div className="flex items-center gap-4">
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <Instagram size={20} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <Facebook size={20} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <MessageCircle size={20} />
+            </a>
+          </div>
+        </div>
+
+        {/* Links */}
+        <div>
+          <h4 className="font-bold text-lg mb-6">Jelajahi</h4>
+          <ul className="space-y-4">
+            <li><a href="#home" className="text-mac-forest/60 hover:text-mac-emerald font-medium transition-colors">Beranda</a></li>
+            <li><a href="#products" className="text-mac-forest/60 hover:text-mac-emerald font-medium transition-colors">Produk Kami</a></li>
+            <li><a href="#about" className="text-mac-forest/60 hover:text-mac-emerald font-medium transition-colors">Tentang Komunitas</a></li>
+            <li><a href="#contact" className="text-mac-forest/60 hover:text-mac-emerald font-medium transition-colors">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        {/* Contact/Location */}
+        <div>
+          <h4 className="font-bold text-lg mb-6">Temukan Kami</h4>
+          <div className="flex gap-3 text-mac-forest/60 mb-4">
+            <MapPin size={20} className="shrink-0 text-mac-emerald" />
+            <p className="text-sm leading-relaxed font-medium">
+              Kunjungi booth MAC di berbagai event lokal di kotamu. Pantau terus Instagram kami untuk jadwal event berikutnya!
+            </p>
+          </div>
+          <div className="flex gap-3 text-mac-forest/60">
+            <MessageCircle size={20} className="shrink-0 text-mac-emerald" />
+            <p className="text-sm leading-relaxed font-medium">
+              +62 812-3456-7890<br/>
+              (WA only)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto pt-8 border-t border-mac-forest/10 text-center md:flex md:justify-between md:text-left text-sm text-mac-forest/50 font-bold">
+        <p>&copy; {new Date().getFullYear()} Madrasah Action Community. All rights reserved.</p>
+        <p className="mt-2 md:mt-0">Dibuat dengan ❤️ oleh Komunitas.</p>
+      </div>
+    </footer>
+  );
+}
