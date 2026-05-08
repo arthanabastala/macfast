@@ -4,29 +4,29 @@ import { ShoppingBag, MessageCircle } from 'lucide-react';
 const products = [
   {
     id: 1,
-    name: 'MAC Dish Soap',
+    name: 'MAC Sabun Cuci Piring',
     description: 'Sabun cuci piring wangi jeruk nipis segar, lembut di tangan.',
-    price: 'Rp 17.000',
+    price: 'Rp 15.000',
     image: '/cupirgede.png',
     tag: 'Best Seller'
   },
   {
     id: 2,
-    name: 'MAC Ironing Spray',
-    description: 'Pelican pakaian dengan aroma floral premium tahan lama.',
-    price: 'Rp 20.000',
+    name: 'MAC Pelincin Pakaian',
+    description: 'Pelican pakaian dengan aroma Downie Black tahan lama.',
+    price: 'Rp 15.000',
     image: '/pewangi.png',
   },
   {
     id: 3,
-    name: 'MAC Floor Cleaner',
+    name: 'MAC Karbol',
     description: 'Pembersih lantai antibakteri aroma pinus menenangkan.',
     price: 'Rp 18.000',
     image: 'karbol.png',
   },
   {
     id: 4,
-    name: 'MAC Premium Detergent',
+    name: 'MAC Detergent Cair',
     description: 'Deterjen cair ampuh angkat noda dan merawat serat kain.',
     price: 'Rp 25.000',
     image: 'detergen_ungu.png',
