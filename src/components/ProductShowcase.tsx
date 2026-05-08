@@ -74,7 +74,7 @@ export default function ProductShowcase() {
                 <div className="flex items-center justify-between mt-auto">
                   <span className="font-bold text-mac-emerald text-lg">{product.price}</span>
                   <a 
-                    href="https://wa.me/something"
+                    href="https://wa.me/+62858194105"
                     className="p-2 rounded-lg bg-mac-emerald/10 text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors"
                   >
                     <ShoppingBag size={20} />
