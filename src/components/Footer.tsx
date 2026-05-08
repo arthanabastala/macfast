@@ -1,4 +1,4 @@
-import { MapPin } from 'lucide-react';
+import { MapPin, Instagram, Facebook, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,16 +7,26 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-2">
           <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
+            <img src="/logomac.png" alt="MAC Logo" className="h-12 w-auto object-contain" />
             <div>
-              <a href="#home" className="flex items-center gap-2">
-                <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
-                <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
-              </a>
+              <span className="font-bold text-2xl tracking-tight block">MAC</span>
+              <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
             </div>
           </a>
           <p className="text-mac-forest/60 max-w-sm mb-6 leading-relaxed">
             Produk home care berkualitas untuk kebutuhan sehari-hari yang dikembangkan oleh komunitas anak serumpun.
           </p>
+          <div className="flex items-center gap-4">
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <Instagram size={20} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <Facebook size={20} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-mac-emerald/10 flex items-center justify-center text-mac-emerald hover:bg-mac-emerald hover:text-white transition-colors">
+              <MessageCircle size={20} />
+            </a>
+          </div>
         </div>
 
         {/* Links */}
@@ -41,9 +51,9 @@ export default function Footer() {
           </div>
           <div className="flex gap-3 text-mac-forest/60">
             <MessageCircle size={20} className="shrink-0 text-mac-emerald" />
-            <p className="text-sm leading-relaxed font-medium"
-              href="https://wa.me/+6285819410509">
-              085819410509<br />
+            <p className="text-sm leading-relaxed font-medium">
+		href="https://wa.me/+6285819410509">
+              +62-858-1941-0509<br/>
               (WA only)
             </p>
           </div>
@@ -51,7 +61,8 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-mac-forest/10 text-center md:flex md:justify-between md:text-left text-sm text-mac-forest/50 font-bold">
-        <p>&copy; {new Date().getFullYear()} PT.MAC GLOBAL NUSANTARA. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Madrasah Action Community. All rights reserved.</p>
+        <p className="mt-2 md:mt-0">Dibuat dengan ❤️ oleh Komunitas.</p>
       </div>
     </footer>
   );
