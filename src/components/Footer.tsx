@@ -48,7 +48,7 @@ export default function Footer() {
           <div className="flex gap-3 text-mac-forest/60 mb-4">
             <MapPin size={20} className="shrink-0 text-mac-emerald" />
             <p className="text-sm leading-relaxed font-medium">
-              Kunjungi booth MAC di berbagai event lokal di kotamu. Pantau terus Instagram kami untuk jadwal event berikutnya!
+              Kp.Kebon Kelapa, RT.02/RW.011, Singasari, Kec. Jonggol, Kabupaten Bogor, Jawa Barat 16830
             </p>
           </div>
           <div className="flex gap-3 text-mac-forest/60">
@@ -63,7 +63,6 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-mac-forest/10 text-center md:flex md:justify-between md:text-left text-sm text-mac-forest/50 font-bold">
         <p>&copy; {new Date().getFullYear()} PT.MAC GLOBAL NUSANTARA. All rights reserved.</p>
-        <p className="mt-2 md:mt-0">Dibuat dengan ❤️ oleh Komunitas.</p>
       </div>
     </footer>
   );
