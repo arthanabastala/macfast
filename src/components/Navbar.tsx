@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/something"
+            href="https://wa.me/+6285819410509"
             className="bg-mac-orange hover:opacity-90 text-white px-6 py-2.5 rounded-full font-bold transition-all shadow-lg hover:shadow-mac-orange/40"
           >
             Order Sekarang
@@ -83,7 +83,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://wa.me/something"
+              href="https://wa.me/+6285819410509"
               className="mt-4 bg-mac-orange text-center text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-md"
             >
               Order Sekarang
