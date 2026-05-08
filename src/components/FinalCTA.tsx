@@ -18,7 +18,7 @@ export default function FinalCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight tracking-tight"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight tracking-tight"
         >
           Siap bikin rumah lebih fresh bareng MAC?
         </motion.h2>
