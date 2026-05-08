@@ -9,7 +9,6 @@ export default function Footer() {
           <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
             <img src="/logomac.png" alt="MAC Logo" className="h-12 w-auto object-contain" />
             <div>
-              <span className="font-bold text-2xl tracking-tight block">MAC</span>
               <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
             </div>
           </a>
