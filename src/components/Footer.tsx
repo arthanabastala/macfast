@@ -57,7 +57,7 @@ export default function Footer() {
             <MessageCircle size={20} className="shrink-0 text-mac-emerald" />
             <p className="text-sm leading-relaxed font-medium"
             href="https://wa.me/+6285819410509">
-              0858 1941 0509<br/>
+              085819410509<br/>
               (WA only)
             </p>
           </div>
