@@ -94,7 +94,7 @@ export default function Hero() {
             className="relative z-20 w-[65%] sm:w-[55%] max-w-[260px] h-[105%] sm:h-[115%] rounded-[2rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(20,83,45,0.4)] border-[6px] border-white/60 bg-mac-cream"
           >
             <img 
-              src="https://images.unsplash.com/photo-1584820927498-cafe2c161a06?auto=format&fit=crop&q=80&w=600&h=800" 
+              src="/cupirkecil.png" 
               alt="MAC Sabun Cuci Piring Cair" 
               className="w-full h-full object-cover scale-105"
             />
