@@ -7,9 +7,6 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-2">
           <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
-            <div className="w-12 h-12 rounded-xl bg-mac-emerald flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-              M
-            </div>
             <div>
               <a href="#home" className="flex items-center gap-2">
               <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
