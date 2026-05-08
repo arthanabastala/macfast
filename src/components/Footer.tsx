@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <div>
               <span className="font-bold text-2xl tracking-tight block">MAC</span>
-              <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">Madrasah Action Community</span>
+              <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
             </div>
           </a>
           <p className="text-mac-forest/60 max-w-sm mb-6 leading-relaxed">
@@ -62,7 +62,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-mac-forest/10 text-center md:flex md:justify-between md:text-left text-sm text-mac-forest/50 font-bold">
-        <p>&copy; {new Date().getFullYear()} Madrasah Action Community. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} PT.MAC GLOBAL NUSANTARA. All rights reserved.</p>
         <p className="mt-2 md:mt-0">Dibuat dengan ❤️ oleh Komunitas.</p>
       </div>
     </footer>
