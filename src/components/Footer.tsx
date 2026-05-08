@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="md:col-span-2">
           <a href="#home" className="flex items-center gap-3 mb-6 block w-fit">
             <div>
-              <a href="#home" className="flex items-center gap-2"> 
-                   <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
-                   <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
-                   </a>
+              <a href="#home" className="flex items-center gap-2">
+                <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
+                <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
+              </a>
             </div>
           </a>
           <p className="text-mac-forest/60 max-w-sm mb-6 leading-relaxed">
@@ -42,8 +42,8 @@ export default function Footer() {
           <div className="flex gap-3 text-mac-forest/60">
             <MessageCircle size={20} className="shrink-0 text-mac-emerald" />
             <p className="text-sm leading-relaxed font-medium"
-            href="https://wa.me/+6285819410509">
-              085819410509<br/>
+              href="https://wa.me/+6285819410509">
+              085819410509<br />
               (WA only)
             </p>
           </div>
