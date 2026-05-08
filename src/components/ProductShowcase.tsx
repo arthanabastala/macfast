@@ -6,8 +6,8 @@ const products = [
     id: 1,
     name: 'MAC Dish Soap',
     description: 'Sabun cuci piring wangi jeruk nipis segar, lembut di tangan.',
-    price: 'Rp 15.000',
-    image: 'https://images.unsplash.com/photo-1585833758252-ebabeeb0e28f?fm=jpg&q=80&w=400&h=400&fit=crop',
+    price: 'Rp 17.000',
+    image: '/cupirgede.png',
     tag: 'Best Seller'
   },
   {
@@ -15,21 +15,21 @@ const products = [
     name: 'MAC Ironing Spray',
     description: 'Pelican pakaian dengan aroma floral premium tahan lama.',
     price: 'Rp 20.000',
-    image: 'https://images.unsplash.com/photo-1610557434522-861c8a142bee?fm=jpg&q=80&w=400&h=400&fit=crop',
+    image: '/pewangi.png',
   },
   {
     id: 3,
     name: 'MAC Floor Cleaner',
     description: 'Pembersih lantai antibakteri aroma pinus menenangkan.',
     price: 'Rp 18.000',
-    image: 'https://images.unsplash.com/photo-1584820927498-cafe6c1c9af5?fm=jpg&q=80&w=400&h=400&fit=crop',
+    image: 'karbol.png',
   },
   {
     id: 4,
     name: 'MAC Premium Detergent',
     description: 'Deterjen cair ampuh angkat noda dan merawat serat kain.',
     price: 'Rp 25.000',
-    image: 'https://images.unsplash.com/photo-1626808642875-0aa545482dfb?fm=jpg&q=80&w=400&h=400&fit=crop',
+    image: 'detergen_ungu.png',
   }
 ];
 
