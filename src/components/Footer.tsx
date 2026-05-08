@@ -11,7 +11,9 @@ export default function Footer() {
               M
             </div>
             <div>
-              <span className="font-bold text-2xl tracking-tight block">MAC</span>
+              <a href="#home" className="flex items-center gap-2">
+              <img src="/logomac.png" alt="MAC Logo" className="h-10 w-auto object-contain" />
+              </a>
               <span className="text-sm text-mac-forest/70 font-semibold uppercase tracking-wider">PT.MAC GLOBAL NUSANTARA</span>
             </div>
           </a>
