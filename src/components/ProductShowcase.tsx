@@ -21,7 +21,7 @@ const products = [
     id: 3,
     name: 'MAC Karbol',
     description: 'Pembersih lantai antibakteri aroma pinus menenangkan.',
-    price: 'Rp 18.000',
+    price: 'Rp 15.000',
     image: 'karbol.png',
   },
   {
