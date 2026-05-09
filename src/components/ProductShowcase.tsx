@@ -14,7 +14,7 @@ const products = [
     id: 2,
     name: 'MAC Pelincin Pakaian',
     description: 'Pelican pakaian dengan aroma Downie Black tahan lama.',
-    price: 'Rp 15.000',
+    price: 'Rp 16.000',
     image: '/pewangi.png',
   },
   {
@@ -28,7 +28,7 @@ const products = [
     id: 4,
     name: 'MAC Detergent Cair',
     description: 'Deterjen cair ampuh angkat noda dan merawat serat kain.',
-    price: 'Rp 25.000',
+    price: 'Rp 16.000',
     image: 'detergen_ungu.png',
   }
 ];
